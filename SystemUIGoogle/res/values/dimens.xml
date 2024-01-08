@@ -118,7 +118,7 @@
     <dimen name="opa_lockscreen_translation_ry">7.0dip</dimen>
     <dimen name="page_indicator_dot_margin">3.0dip</dimen>
     <dimen name="page_indicator_dot_size">6.0dip</dimen>
-    <dimen name="page_indicator_padding_top">10.0dip</dimen>
+    <dimen name="page_indicator_padding_top">12.0dip</dimen>
     <dimen name="page_indicator_width">16.0dip</dimen>
     <dimen name="scaled_image_corner_radius">28.0dip</dimen>
     <dimen name="scrim_touchable_height">132.0dip</dimen>
