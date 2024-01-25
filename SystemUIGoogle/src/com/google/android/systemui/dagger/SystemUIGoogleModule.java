@@ -29,6 +29,7 @@ import androidx.annotation.Nullable;
 import com.android.systemui.qs.QsEventLogger;
 import com.android.keyguard.KeyguardViewController;
 import com.android.systemui.assist.AssistManager;
+import com.android.systemui.banana.BananaModule;
 import com.android.systemui.broadcast.BroadcastDispatcher;
 import com.android.systemui.controls.controller.ControlsTileResourceConfiguration;
 import com.android.systemui.dagger.SysUISingleton;
@@ -39,7 +40,6 @@ import com.android.systemui.dock.DockManager;
 import com.android.systemui.dock.DockManagerImpl;
 import com.android.systemui.doze.DozeHost;
 import com.android.systemui.dump.DumpManager;
-import com.android.systemui.lineage.LineageModule;
 import com.android.systemui.media.dagger.MediaModule;
 import com.android.systemui.navigationbar.gestural.GestureModule;
 import com.android.systemui.plugins.BcSmartspaceDataPlugin;
@@ -125,7 +125,7 @@ import dagger.Lazy;
         StatusBarEventsModule.class,
         SystemUIGooglePolicyModule.class,
         RotationLockModule.class,
-        LineageModule.class
+        BananaModule.class
 })
 public abstract class SystemUIGoogleModule {
 

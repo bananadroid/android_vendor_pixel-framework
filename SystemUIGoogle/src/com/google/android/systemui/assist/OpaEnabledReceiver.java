@@ -38,8 +38,6 @@ import java.util.concurrent.Executor;
 
 import javax.inject.Inject;
 
-import lineageos.providers.LineageSettings;
-
 @SysUISingleton
 public class OpaEnabledReceiver {
     private final Executor mBgExecutor;
@@ -105,8 +103,8 @@ public class OpaEnabledReceiver {
     }
 
     private void registerContentObserver() {
-        mContentResolver.registerContentObserver(LineageSettings.System.getUriFor(
-                LineageSettings.System.KEY_HOME_LONG_PRESS_ACTION), false, mContentObserver,
+        mContentResolver.registerContentObserver(Settings.System.getUriFor(
+                Settings.System.KEY_HOME_LONG_PRESS_ACTION), false, mContentObserver,
                 UserHandle.USER_ALL);
     }
 
